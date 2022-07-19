@@ -20,7 +20,7 @@ function App() {
   const emulateChanges = async () => {
     for (let i = 0; i <= processAmount; i++) {
       dispatch(changeRightIndex(i))
-      await new Promise((res) => setTimeout(res, 2000))
+      await new Promise((res) => setTimeout(res, 4000))
     }
   }
 
